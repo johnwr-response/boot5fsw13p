@@ -29,3 +29,9 @@
 - Expert w/sass : The selling cars template
 - Expert w/sass : The sass e-commerce template
 - Expert w/sass : The charts template
+
+## Get Starter template
+
+- [Get Bootstrap 5](https://v5.getbootstrap.com)
+- Clock on docs in menu and find starter template
+- [For v5.1, use this](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
