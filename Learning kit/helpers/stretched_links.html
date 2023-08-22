@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Helpers | Stretched links</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Bootstrap 5</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../getting_started/starter_tempalte.html">Starter template</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Customize
+              </a>
+              <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item " href="../Customize/colors.html">Color</a></li>
+                <li><a class="dropdown-item " href="../Customize/css_variables.html">CSS Variables</a></li>
+
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Layout
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../layout/breakpoint.html">Breakpoints</a></li>
+                <li><a class="dropdown-item" href="../layout/columns.html">Columns</a></li>
+
+                <li><a class="dropdown-item" href="../layout/containers.html">Containers</a></li>
+                <li><a class="dropdown-item" href="../layout/grid.html">Grid</a></li>
+                <li><a class="dropdown-item" href="../layout/gutter.html">Gutter</a></li>
+              </ul>
+            </li>
+          </ul>
+
+
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Content
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../content/reboot.html">Reboot</a></li>
+                <li><a class="dropdown-item" href="../content/typography.html">Typography</a></li>
+                <li><a class="dropdown-item" href="../content/images.html">Images</a></li>
+                <li><a class="dropdown-item" href="../content/tables.html">Tables</a></li>
+                <li><a class="dropdown-item" href="../content/figures.html">Figures</a></li>
+              </ul>
+            </li>
+          </ul>
+
+
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Forms
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../forms/overview.html">Overview</a></li>
+                <li><a class="dropdown-item" href="../forms/form_control.html">Form control</a></li>
+                <li><a class="dropdown-item" href="../forms/input_group.html">Input group</a></li>
+                <li><a class="dropdown-item" href="../forms/layout.html">Floating labels</a></li>
+                <li><a class="dropdown-item" href="../forms/check&radios.html">Check and radios</a></li>
+                <li><a class="dropdown-item" href="../forms/layout.html">Layout</a></li>
+                <li><a class="dropdown-item" href="../forms/select.html">Select</a></li>
+                <li><a class="dropdown-item" href="../forms/range.html">Range</a></li>
+                <li><a class="dropdown-item" href="../forms/validation.html">Validation</a></li>
+              </ul>
+            </li>
+          </ul>
+
+
+
+          <ul class="navbar-nav  mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Components
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: 400px; background-color: none;">
+                <div class="row">
+                  <div class="col-6" style="background-color: transparent; border: none; ">
+                    <li><a class="dropdown-item" href="../components/accordion.html">Accordion</a></li>
+                    <li><a class="dropdown-item" href="../components/alerts.html">Alerts</a></li>
+                    <li><a class="dropdown-item" href="../components/badge.html">Badge</a></li>
+                    <li><a class="dropdown-item" href="../components/breadcrumb.html">Breadcrumb</a></li>
+                    <li><a class="dropdown-item" href="../components/buttongroup.html">Button group</a></li>
+                    <li><a class="dropdown-item" href="../components/buttons.html">Buttons</a></li>
+                    <li><a class="dropdown-item" href="../components/cards.html">Cards</a></li>
+                    <li><a class="dropdown-item" href="../components/carousel.html">Carousel</a></li>
+                    <li><a class="dropdown-item" href="../components/close_buttons.html">Close buttons</a></li>
+                    <li><a class="dropdown-item" href="../components/collapse.html">Collapse</a></li>
+                    <li><a class="dropdown-item" href="../components/dropdowns.html">Dropdowns</a></li>
+                    <li><a class="dropdown-item" href="../components/list_group.html">List group</a></li>
+                    <li><a class="dropdown-item" href="../components/modal.html">Modal</a></li>
+                  </div>
+                  <div class="col-6" style="background-color: transparent; border: none;">
+
+                    <li><a class="dropdown-item" href="../components/nav&tabs.html">Nav & tabs</a></li>
+                    <li><a class="dropdown-item" href="../components/navbar.html">Navbar</a></li>
+                    <li><a class="dropdown-item" href="../components/offcanvas.html">Offcanvas</a></li>
+                    <li><a class="dropdown-item" href="../components/pagination.html">Pagination</a></li>
+                    <li><a class="dropdown-item" href="../components/placeholders.html">Placeholders</a></li>
+                    <li><a class="dropdown-item" href="../components/popovers.html">Popovers</a></li>
+                    <li><a class="dropdown-item" href="../components/progress.html">Progress</a></li>
+                    <li><a class="dropdown-item" href="../components/scrollspy.html">Scrollspy</a></li>
+                    <li><a class="dropdown-item" href="../components/spinners.html">Spinners</a></li>
+                    <li><a class="dropdown-item" href="../components/toast.html">Toast</a></li>
+                    <li><a class="dropdown-item" href="../components/tooltips.html">Tooltips</a></li>
+
+                  </div>
+                </div>
+                </ul>
+
+
+
+
+
+            </li>
+          </ul>
+
+
+
+
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle border-bottom border-3 border-primary active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Helpers
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../helpers/clearfix.html">Clearfix</a></li>
+                <li><a class="dropdown-item" href="../helpers/colored_link.html">Colored links</a></li>
+                <li><a class="dropdown-item" href="../helpers/position.html">Position</a></li>
+                <li><a class="dropdown-item" href="../helpers/stacks.html">Stacks</a></li>
+                <li><a class="dropdown-item" href="../helpers/ratio.html">Ratio</a></li>
+                <li><a class="dropdown-item active" href="../helpers/stretched_links.html">Stretched lin</a></li>
+                <li><a class="dropdown-item" href="../helpers/text_truncation.html">Text truncation</a></li>
+                <li><a class="dropdown-item" href="../helpers/vertical_rule.html">Vertical rule</a></li>
+                <li><a class="dropdown-item" href="../helpers/visually_hidden.html">Visually hidden</a></li>
+
+              </ul>
+            </li>
+          </ul>
+
+
+
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Utilities
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: 400px;">
+                <div class="row">
+                  <div class="col-6" style="border: none; background-color: transparent;">
+                    <li><a class="dropdown-item" href="../utilities/background.html">Background</a></li>
+                    <li><a class="dropdown-item" href="../utilities/borders.html">Borders</a></li>
+                    <li><a class="dropdown-item" href="../utilities/colors.html">Colors</a></li>
+                    <li><a class="dropdown-item" href="../utilities/display.html">Display</a></li>
+                    <li><a class="dropdown-item" href="../utilities/flex.html">Flex</a></li>
+                    <li><a class="dropdown-item" href="../utilities/float.html">Float</a></li>
+                    <li><a class="dropdown-item" href="../utilities/interactions.html">Interactions</a></li>
+                    <li><a class="dropdown-item" href="../utilities/opacity.html">Opacity</a></li>
+                    <li><a class="dropdown-item" href="../utilities/overflow.html">Overflow</a></li>
+                  </div>
+                  <div class="col-6" style="border: none; background-color: transparent;">
+                    <li><a class="dropdown-item" href="../utilities/position.html">Position</a></li>
+                <li><a class="dropdown-item" href="../utilities/shadows.html">shadows</a></li>
+                <li><a class="dropdown-item" href="../utilities/sizing.html">Sizing</a></li>
+                <li><a class="dropdown-item" href="../utilities/spacing.html">Spacing</a></li>
+                <li><a class="dropdown-item" href="../utilities/text.html">Text</a></li>
+                <li><a class="dropdown-item" href="../utilities/Vertical_alignment.html">Vertical alignment</li>
+                <li><a class="dropdown-item" href="../utilities/visibility.html">Visibility</a></li>
+                  </div>
+                </div>
+
+
+
+              </ul>
+            </li>
+          </ul>
+
+
+
+
+        </div>
+      </div>
+    </nav>
+<!--Main content -->
+<div class="main mt-5">
+    <div class="container-fluid ">
+
+        <div class="row  justify-content-evenly align-items-center">
+
+
+
+<div class="col-sm-12 col-12" style="background-color: white; border: none;">
+<div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example overflow-auto" tabindex="0" style="position: relative; height: 86vh">
+    <div class="bd-content ps-lg-4">
+
+
+        <p>Add <code>.stretched-link</code> to a link to make its <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Containing_block">containing block</a> clickable via a <code>::after</code> pseudo element. In most cases, this means that an element with <code>position: relative;</code> that contains a link with the <code>.stretched-link</code> class is clickable. Please note given <a href="https://www.w3.org/TR/CSS21/visuren.html#propdef-position">how CSS <code>position</code> works</a>, <code>.stretched-link</code> cannot be mixed with most table elements.</p>
+<p>Cards have <code>position: relative</code> by default in Bootstrap, so in this case you can safely add the <code>.stretched-link</code> class to a link in the card without any other HTML changes.</p>
+<p>Multiple links and tap targets are not recommended with stretched links. However, some <code>position</code> and <code>z-index</code> styles can help should this be required.</p>
+<div class="bd-example">
+<div class="card" style="width: 18rem;">
+  <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Card image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Card image cap</title><rect width="100%" height="100%" fill="#868e96"></rect></svg>
+
+  <div class="card-body">
+    <h5 class="card-title">Card with stretched link</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+  </div>
+</div>
+</div>
+<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy='
+<div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card with stretched link</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+      <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+    </div>
+  </div>' title="Copy to clipboard">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" /></svg>
+</button>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"card"</span> <span class="na">style</span><span class="o">=</span><span class="s">"width: 18rem;"</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">"..."</span> <span class="na">class</span><span class="o">=</span><span class="s">"card-img-top"</span> <span class="na">alt</span><span class="o">=</span><span class="s">"..."</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"card-body"</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">h5</span> <span class="na">class</span><span class="o">=</span><span class="s">"card-title"</span><span class="p">&gt;</span>Card with stretched link<span class="p">&lt;/</span><span class="nt">h5</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">p</span> <span class="na">class</span><span class="o">=</span><span class="s">"card-text"</span><span class="p">&gt;</span>Some quick example text to build on the card title and make up the bulk of the card's content.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">class</span><span class="o">=</span><span class="s">"btn btn-primary stretched-link"</span><span class="p">&gt;</span>Go somewhere<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre></div>
+<p>Most custom components do not have <code>position: relative</code> by default, so we need to add the <code>.position-relative</code> here to prevent the link from stretching outside the parent element.</p>
+<div class="bd-example">
+<div class="d-flex position-relative">
+  <svg class="bd-placeholder-img flex-shrink-0 me-3" width="144" height="144" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Generic placeholder image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Generic placeholder image</title><rect width="100%" height="100%" fill="#868e96"></rect></svg>
+
+  <div>
+    <h5 class="mt-0">Custom component with stretched link</h5>
+    <p>This is some placeholder content for the custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
+    <a href="#" class="stretched-link">Go somewhere</a>
+  </div>
+</div>
+</div>
+<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy='
+<div class="d-flex position-relative">
+    <img src="..." class="flex-shrink-0 me-3" alt="...">
+    <div>
+      <h5 class="mt-0">Custom component with stretched link</h5>
+      <p>This is some placeholder content for the custom component. It is intended to mimic what some real-world content would look like, and we are using it here to give the component a bit of body and size.</p>
+      <a href="#" class="stretched-link">Go somewhere</a>
+    </div>
+  </div>' title="Copy to clipboard">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" /></svg>
+</button>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"d-flex position-relative"</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">"..."</span> <span class="na">class</span><span class="o">=</span><span class="s">"flex-shrink-0 me-3"</span> <span class="na">alt</span><span class="o">=</span><span class="s">"..."</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">h5</span> <span class="na">class</span><span class="o">=</span><span class="s">"mt-0"</span><span class="p">&gt;</span>Custom component with stretched link<span class="p">&lt;/</span><span class="nt">h5</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>This is some placeholder content for the custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">class</span><span class="o">=</span><span class="s">"stretched-link"</span><span class="p">&gt;</span>Go somewhere<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre></div>
+<div class="bd-example">
+<div class="row g-0 bg-light position-relative">
+  <div class="col-md-6 mb-md-0 p-md-4">
+    <svg class="bd-placeholder-img w-100" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Generic placeholder image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Generic placeholder image</title><rect width="100%" height="100%" fill="#868e96"></rect></svg>
+
+  </div>
+  <div class="col-md-6 p-4 ps-md-0">
+    <h5 class="mt-0">Columns with stretched link</h5>
+    <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
+    <a href="#" class="stretched-link">Go somewhere</a>
+  </div>
+</div>
+</div>
+<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy='
+<div class="row g-0 bg-light position-relative">
+    <div class="col-md-6 mb-md-0 p-md-4">
+      <img src="..." class="w-100" alt="...">
+    </div>
+    <div class="col-md-6 p-4 ps-md-0">
+      <h5 class="mt-0">Columns with stretched link</h5>
+      <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we are using it here to give the component a bit of body and size.</p>
+      <a href="#" class="stretched-link">Go somewhere</a>
+    </div>
+  </div>' title="Copy to clipboard">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" /></svg>
+</button>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"row g-0 bg-light position-relative"</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"col-md-6 mb-md-0 p-md-4"</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">"..."</span> <span class="na">class</span><span class="o">=</span><span class="s">"w-100"</span> <span class="na">alt</span><span class="o">=</span><span class="s">"..."</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"col-md-6 p-4 ps-md-0"</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">h5</span> <span class="na">class</span><span class="o">=</span><span class="s">"mt-0"</span><span class="p">&gt;</span>Columns with stretched link<span class="p">&lt;/</span><span class="nt">h5</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">class</span><span class="o">=</span><span class="s">"stretched-link"</span><span class="p">&gt;</span>Go somewhere<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre></div>
+<h2 id="identifying-the-containing-block">Identifying the containing block<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#identifying-the-containing-block" style="padding-left: 0.375em;"></a></h2>
+<p>If the stretched link doesn’t seem to work, the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Containing_block#Identifying_the_containing_block">containing block</a> will probably be the cause. The following CSS properties will make an element the containing block:</p>
+<ul>
+<li>A <code>position</code> value other than <code>static</code></li>
+<li>A <code>transform</code> or <code>perspective</code> value other than <code>none</code></li>
+<li>A <code>will-change</code> value of <code>transform</code> or <code>perspective</code></li>
+<li>A <code>filter</code> value other than <code>none</code> or a <code>will-change</code> value of <code>filter</code> (only works on Firefox)</li>
+</ul>
+<div class="bd-example">
+<div class="card" style="width: 18rem;">
+  <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Card image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Card image cap</title><rect width="100%" height="100%" fill="#868e96"></rect></svg>
+
+  <div class="card-body">
+    <h5 class="card-title">Card with stretched links</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">
+      <a href="#" class="stretched-link text-danger" style="position: relative;">Stretched link will not work here, because <code>position: relative</code> is added to the link</a>
+    </p>
+    <p class="card-text bg-light" style="transform: rotate(0);">
+      This <a href="#" class="text-warning stretched-link">stretched link</a> will only be spread over the <code>p</code>-tag, because a transform is applied to it.
+    </p>
+  </div>
+</div>
+</div>
+<button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip" data-placement="bottom" data-copy='
+<div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card with stretched links</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+      <p class="card-text">
+        <a href="#" class="stretched-link text-danger" style="position: relative;">Stretched link will not work here, because <code>position: relative</code> is added to the link</a>
+      </p>
+      <p class="card-text bg-light" style="transform: rotate(0);">
+        This <a href="#" class="text-warning stretched-link">stretched link</a> will only be spread over the <code>p</code>-tag, because a transform is applied to it.
+      </p>
+    </div>
+  </div>
+
+' title="Copy to clipboard">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" /></svg>
+</button>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"card"</span> <span class="na">style</span><span class="o">=</span><span class="s">"width: 18rem;"</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">"..."</span> <span class="na">class</span><span class="o">=</span><span class="s">"card-img-top"</span> <span class="na">alt</span><span class="o">=</span><span class="s">"..."</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"card-body"</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">h5</span> <span class="na">class</span><span class="o">=</span><span class="s">"card-title"</span><span class="p">&gt;</span>Card with stretched links<span class="p">&lt;/</span><span class="nt">h5</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">p</span> <span class="na">class</span><span class="o">=</span><span class="s">"card-text"</span><span class="p">&gt;</span>Some quick example text to build on the card title and make up the bulk of the card's content.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">p</span> <span class="na">class</span><span class="o">=</span><span class="s">"card-text"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">class</span><span class="o">=</span><span class="s">"stretched-link text-danger"</span> <span class="na">style</span><span class="o">=</span><span class="s">"position: relative;"</span><span class="p">&gt;</span>Stretched link will not work here, because <span class="p">&lt;</span><span class="nt">code</span><span class="p">&gt;</span>position: relative<span class="p">&lt;/</span><span class="nt">code</span><span class="p">&gt;</span> is added to the link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">p</span> <span class="na">class</span><span class="o">=</span><span class="s">"card-text bg-light"</span> <span class="na">style</span><span class="o">=</span><span class="s">"transform: rotate(0);"</span><span class="p">&gt;</span>
+      This <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">class</span><span class="o">=</span><span class="s">"text-warning stretched-link"</span><span class="p">&gt;</span>stretched link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span> will only be spread over the <span class="p">&lt;</span><span class="nt">code</span><span class="p">&gt;</span>p<span class="p">&lt;/</span><span class="nt">code</span><span class="p">&gt;</span>-tag, because a transform is applied to it.
+    <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre></div>
+
+      </div>
+</div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function () {
+      'use strict'
+
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.querySelectorAll('.needs-validation')
+
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+      .forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+
+          form.classList.add('was-validated')
+        }, false)
+      })
+      })()
+            // COPY TO CLIPBOARD
+      // Attempts to use .execCommand('copy') on a created text field
+      // Falls back to a selectable alert if not supported
+      // Attempts to display status in Bootstrap tooltip
+      // ------------------------------------------------------------------------------
+
+      function copyToClipboard(text, el) {
+      var copyTest = document.queryCommandSupported('copy');
+      var elOriginalText = el.attr('data-original-title');
+
+      if (copyTest === true) {
+      var copyTextArea = document.createElement("textarea");
+      copyTextArea.value = text;
+      document.body.appendChild(copyTextArea);
+      copyTextArea.select();
+      try {
+        var successful = document.execCommand('copy');
+        var msg = successful ? 'Copied!' : 'Whoops, not copied!';
+        el.attr('data-original-title', msg).tooltip('show');
+      } catch (err) {
+        console.log('Oops, unable to copy');
+      }
+      document.body.removeChild(copyTextArea);
+      el.attr('data-original-title', elOriginalText);
+      } else {
+      // Fallback if browser doesn't support .execCommand('copy')
+      window.prompt("Copy to clipboard: Ctrl+C or Command+C, Enter", text);
+      }
+      }
+
+      $(document).ready(function() {
+      // Initialize
+      // ---------------------------------------------------------------------
+
+      // Tooltips
+      // Requires Bootstrap 3 for functionality
+      $('.js-tooltip').tooltip();
+
+      // Copy to clipboard
+      // Grab any text in the attribute 'data-copy' and pass it to the
+      // copy function
+      $('.js-copy').click(function() {
+      var text = $(this).attr('data-copy');
+      var el = $(this);
+      copyToClipboard(text, el);
+      });
+      });
+        </script>
+        <style>
+    .bd-example {
+                padding: 20px;
+              padding-top: .75rem;
+      padding-bottom: .75rem;
+
+      border: 1px solid rgba(39,41,43,0.1);
+      margin-top: 15px;
+            }
+
+            .col, .col-1, .col-2, .col-3, .col-4
+            , .col-5, .col-6, .col-7
+            , .col-8, .col-9, .col-10
+            , .col-11, .col-12
+            , .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4
+            , .col-sm-5, .col-sm-6, .col-sm-7
+            , .col-sm-8, .col-sm-9, .col-sm-10
+            , .col-sm-11
+            , .col-sm-12, .col-md-1, .col-md-2, .col-md-3
+            , .col-md-4
+            , .col-md-5
+            , .col-md-6
+            , .col-md-7
+            , .col-md-8
+            , .col-md-9
+            , .col-sm
+            , .col-md-10
+            , .col-md-11
+            , .col-md-12
+            , .col-lg-1
+            , .col-lg-2
+            , .col-lg-3
+            , .col-lg-4
+            , .col-lg-5
+            , .col-lg-6
+            , .col-lg-7
+            , .col-lg-8
+            , .col-lg-9
+            , .col-lg-10
+            , .col-lg-11
+            , .col-lg-12
+            , .col-xl-1
+            , .col-xl-2
+            , .col-xl-3
+            , .col-xl-4
+            , .col-xl-5
+            , .col-xl-6
+            , .col-xl-7
+            , .col-xl-8
+            , .col-xl-9
+            , .col-xl-10
+            , .col-xl-11
+            , .col-xl-12
+            , .col-xxl-1
+            , .col-xxl-2
+            , .col-xxl-3
+            , .col-xxl-4
+            , .col-xxl-5
+            , .col-xxl-6
+            , .col-xxl-7
+            , .col-xxl-8, .col-xxl-9
+            , .col-xxl-10
+            , .col-xxl-11
+            , .col-xxl-12
+            , .col-md-auto
+            , .col-auto
+            , .col-sm-auto
+            , .col-lg-auto
+            , .col-xl-auto {
+              padding-top: .75rem;
+      padding-bottom: .75rem;
+              background-color: rgba(39,41,43,0.03);
+      border: 1px solid rgba(39,41,43,0.1);
+      margin-top: 15px;
+            }
+            .btn-default {
+                margin-top: 15px;
+                background-color: rgba(39,41,43,0.03);
+            }
+            .accordion-item, .accordion-button {
+
+              background-color: rgba(39,41,43,0.03);
+            }
+            .chroma {
+              background-color: rgba(39,41,43,0.03);
+              padding: 20px;
+            }
+            .bd-example-row-flex-cols .row {
+      min-height: 10rem;
+      background-color: rgba(255,0,0,0.1);
+      margin-top: 20px;
+
+      }
+      pre {
+      padding: 0;
+      margin-top: .65rem;
+      margin-bottom: .65rem;
+      white-space: pre;
+      background-color: transparent;
+      border: 0;
+      }
+      .chroma .nt {
+      color: #2f6f9f;
+      }
+      .chroma .na {
+      color: #006ee0;
+      }
+      .chroma .o {
+      color: #555;
+      }
+      .chroma .s {
+      color: #d73038;
+      }
+      pre {
+      display: block;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      overflow: auto;
+      font-size: .875em;
+      }
+      code, kbd, pre, samp {
+      font-family: var(--bs-font-monospace);
+      font-size: 1em;
+      direction: ltr;
+      unicode-bidi: bidi-override;
+      }
+      code {
+      font-size: .875em;
+      color: #d63384;
+      word-wrap: break-word;
+      }
+
+        </style>
+
+    </body>
+    </html>

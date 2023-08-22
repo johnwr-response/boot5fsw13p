@@ -1,0 +1,2209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Components | Nav & tabs</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Bootstrap 5</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../getting_started/starter_tempalte.html">Starter template</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Customize
+              </a>
+              <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item " href="../Customize/colors.html">Color</a></li>
+                <li><a class="dropdown-item " href="../Customize/css_variables.html">CSS Variables</a></li>
+
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Layout
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../layout/breakpoint.html">Breakpoints</a></li>
+                <li><a class="dropdown-item" href="../layout/columns.html">Columns</a></li>
+
+                <li><a class="dropdown-item" href="../layout/containers.html">Containers</a></li>
+                <li><a class="dropdown-item" href="../layout/grid.html">Grid</a></li>
+                <li><a class="dropdown-item" href="../layout/gutter.html">Gutter</a></li>
+              </ul>
+            </li>
+          </ul>
+
+
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Content
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../content/reboot.html">Reboot</a></li>
+                <li><a class="dropdown-item" href="../content/typography.html">Typography</a></li>
+                <li><a class="dropdown-item" href="../content/images.html">Images</a></li>
+                <li><a class="dropdown-item" href="../content/tables.html">Tables</a></li>
+                <li><a class="dropdown-item" href="../content/figures.html">Figures</a></li>
+              </ul>
+            </li>
+          </ul>
+
+
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Forms
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../forms/overview.html">Overview</a></li>
+                <li><a class="dropdown-item" href="../forms/form_control.html">Form control</a></li>
+                <li><a class="dropdown-item" href="../forms/input_group.html">Input group</a></li>
+                <li><a class="dropdown-item" href="../forms/layout.html">Floating labels</a></li>
+                <li><a class="dropdown-item" href="../forms/check&radios.html">Check and radios</a></li>
+                <li><a class="dropdown-item" href="../forms/layout.html">Layout</a></li>
+                <li><a class="dropdown-item" href="../forms/select.html">Select</a></li>
+                <li><a class="dropdown-item" href="../forms/range.html">Range</a></li>
+                <li><a class="dropdown-item" href="../forms/validation.html">Validation</a></li>
+              </ul>
+            </li>
+          </ul>
+
+
+
+          <ul class="navbar-nav  mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link active border-bottom border-3 border-primary dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Components
+              </a>
+              <ul class="dropdown-menu " aria-labelledby="navbarDropdown" style="width: 400px; background-color: none;">
+                <div class="row">
+                  <div class="col-6" style="background-color: transparent; border: none; ">
+                    <li><a class="dropdown-item" href="../components/accordion.html">Accordion</a></li>
+                    <li><a class="dropdown-item" href="../components/alerts.html">Alerts</a></li>
+                    <li><a class="dropdown-item" href="../components/badge.html">Badge</a></li>
+                    <li><a class="dropdown-item" href="../components/breadcrumb.html">Breadcrumb</a></li>
+                    <li><a class="dropdown-item" href="../components/buttongroup.html">Button group</a></li>
+                    <li><a class="dropdown-item" href="../components/buttons.html">Buttons</a></li>
+                    <li><a class="dropdown-item" href="../components/cards.html">Cards</a></li>
+                    <li><a class="dropdown-item" href="../components/carousel.html">Carousel</a></li>
+                    <li><a class="dropdown-item" href="../components/close_buttons.html">Close buttons</a></li>
+                    <li><a class="dropdown-item" href="../components/collapse.html">Collapse</a></li>
+                    <li><a class="dropdown-item" href="../components/dropdowns.html">Dropdowns</a></li>
+                    <li><a class="dropdown-item" href="../components/list_group.html">List group</a></li>
+                    <li><a class="dropdown-item" href="../components/modal.html">Modal</a></li>
+                  </div>
+                  <div class="col-6" style="background-color: transparent; border: none;">
+
+                    <li><a class="dropdown-item active" href="../components/nav&tabs.html">Nav & tabs</a></li>
+                    <li><a class="dropdown-item" href="../components/navbar.html">Navbar</a></li>
+                    <li><a class="dropdown-item" href="../components/offcanvas.html">Offcanvas</a></li>
+                    <li><a class="dropdown-item" href="../components/pagination.html">Pagination</a></li>
+                    <li><a class="dropdown-item" href="../components/placeholders.html">Placeholders</a></li>
+                    <li><a class="dropdown-item" href="../components/popovers.html">Popovers</a></li>
+                    <li><a class="dropdown-item" href="../components/progress.html">Progress</a></li>
+                    <li><a class="dropdown-item" href="../components/scrollspy.html">Scrollspy</a></li>
+                    <li><a class="dropdown-item" href="../components/spinners.html">Spinners</a></li>
+                    <li><a class="dropdown-item" href="../components/toast.html">Toast</a></li>
+                    <li><a class="dropdown-item" href="../components/tooltips.html">Tooltips</a></li>
+
+                  </div>
+                </div>
+                </ul>
+
+
+
+
+
+            </li>
+          </ul>
+
+
+
+
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Helpers
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../helpers/clearfix.html">Clearfix</a></li>
+                <li><a class="dropdown-item" href="../helpers/colored_link.html">Colored links</a></li>
+                <li><a class="dropdown-item" href="../helpers/position.html">Position</a></li>
+                <li><a class="dropdown-item" href="../helpers/stacks.html">Stacks</a></li>
+                <li><a class="dropdown-item" href="../helpers/ratio.html">Ratio</a></li>
+                <li><a class="dropdown-item" href="../helpers/stretched_links.html">Stretched lin</a></li>
+                <li><a class="dropdown-item" href="../helpers/text_truncation.html">Text truncation</a></li>
+                <li><a class="dropdown-item" href="../helpers/vertical_rule.html">Vertical rule</a></li>
+                <li><a class="dropdown-item" href="../helpers/visually_hidden.html">Visually hidden</a></li>
+
+              </ul>
+            </li>
+          </ul>
+
+
+
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Utilities
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: 400px;">
+                <div class="row">
+                  <div class="col-6" style="border: none; background-color: transparent;">
+                    <li><a class="dropdown-item" href="../utilities/background.html">Background</a></li>
+                    <li><a class="dropdown-item" href="../utilities/borders.html">Borders</a></li>
+                    <li><a class="dropdown-item" href="../utilities/colors.html">Colors</a></li>
+                    <li><a class="dropdown-item" href="../utilities/display.html">Display</a></li>
+                    <li><a class="dropdown-item" href="../utilities/flex.html">Flex</a></li>
+                    <li><a class="dropdown-item" href="../utilities/float.html">Float</a></li>
+                    <li><a class="dropdown-item" href="../utilities/interactions.html">Interactions</a></li>
+                    <li><a class="dropdown-item" href="../utilities/opacity.html">Opacity</a></li>
+                    <li><a class="dropdown-item" href="../utilities/overflow.html">Overflow</a></li>
+                  </div>
+                  <div class="col-6" style="border: none; background-color: transparent;">
+                    <li><a class="dropdown-item" href="../utilities/position.html">Position</a></li>
+                <li><a class="dropdown-item" href="../utilities/shadows.html">shadows</a></li>
+                <li><a class="dropdown-item" href="../utilities/sizing.html">Sizing</a></li>
+                <li><a class="dropdown-item" href="../utilities/spacing.html">Spacing</a></li>
+                <li><a class="dropdown-item" href="../utilities/text.html">Text</a></li>
+                <li><a class="dropdown-item" href="../utilities/Vertical_alignment.html">Vertical alignment</li>
+                <li><a class="dropdown-item" href="../utilities/visibility.html">Visibility</a></li>
+                  </div>
+                </div>
+
+
+
+              </ul>
+            </li>
+          </ul>
+
+
+
+
+        </div>
+      </div>
+    </nav>
+<!--Main content -->
+<div class="main mt-5">
+    <div class="container-fluid ">
+
+        <div class="row  justify-content-evenly">
+
+
+    <div class="col-sm-3 col-11 mb-5" style="background-color: white; border: none;">
+        <div id="list-example" class="list-group">
+            <a class="list-group-item list-group-item-action" href="#list-item-1">Base nav</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Available styles</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Horizontal alignment</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">Vertical</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-5">Tabs</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-6">Pills</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-7">Fill and justify</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-8">Working with flex utilities</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-9">Tabs with dropdowns</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-10">Pills with dropdowns</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-11">JavaScript behavior</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-12">Using data attributes</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-13">Using Javscript</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-14">Fade effect</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-15">constructor</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-16">show</a>
+
+            <a class="list-group-item list-group-item-action" href="#list-item-17">getInstance</a>
+
+          </div>
+    </div>
+
+<div class="col-sm-9 col-12" style="background-color: white; border: none;">
+    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example overflow-auto" tabindex="0" style="position: relative; height: 86vh">
+
+<h4 id="list-item-1">Base nav</h4>
+<p>
+    <p>Navigation available in Bootstrap share general markup and styles, from the base
+        <code>.nav</code> class to the active and disabled states. Swap modifier classes to switch
+        between each style.
+      </p>
+
+      <p>The base <code>.nav</code> component is built with flexbox and provide a strong foundation
+        for building all types of navigation components. It includes some style overrides (for
+        working with lists), some link padding for larger hit areas, and basic disabled styling.</p>
+      <div class="bd-example">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1"
+                    aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+      </div> <button type="button" class="btn btn-default btn-copy js-tooltip js-copy"
+        data-toggle="tooltip" data-placement="bottom" data-copy='
+      <ul class="nav">
+      <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+      </ul>
+
+      ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+      <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link active"</span> <span class="na">aria-current</span><span class="o">=</span><span class="s">"page"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Active<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link disabled"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">tabindex</span><span class="o">=</span><span class="s">"-1"</span> <span class="na">aria-disabled</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Disabled<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span></code></pre>
+
+      <p>Classes are used throughout, so your markup can be super flexible. Use
+        <code>&lt;ul&gt;</code>s like above, <code>&lt;ol&gt;</code> if the order of your items is
+        important, or roll your own with a <code>&lt;nav&gt;</code> element. Because the
+        <code>.nav</code> uses <code>display: flex</code>, the nav links behave the same as nav
+        items would, but without the extra markup.
+      </p>
+      <div class="bd-example">
+        <nav class="nav">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </nav>
+      </div>
+      <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+        data-placement="bottom" data-copy='
+      <nav class="nav">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </nav>
+
+      ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+</button>
+<pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav"</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link active"</span> <span class="na">aria-current</span><span class="o">=</span><span class="s">"page"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Active<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link disabled"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">tabindex</span><span class="o">=</span><span class="s">"-1"</span> <span class="na">aria-disabled</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Disabled<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span></code></pre>
+</p>
+
+
+<h4 id="list-item-2">Available styles</h4>
+<p>
+    <p>Change the style of <code>.nav</code>s component with modifiers and utilities. Mix and match
+        as needed, or build your own.</p>
+</p>
+
+
+<h4 id="list-item-3">Horizontal alignment</h4>
+<p>
+    <p>Change the horizontal alignment of your nav with flexbox utilities. By default, navs are
+        left-aligned, but you can easily change them to center or right aligned.</p>
+
+
+      <p>Centered with <code>.justify-content-center</code>:</p>
+      <div class="bd-example">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1"
+                    aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+      </div>
+      <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+        data-placement="bottom" data-copy='
+      <ul class="nav justify-content-center">
+      <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+      </ul>
+
+      ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+      <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav justify-content-center"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link active"</span> <span class="na">aria-current</span><span class="o">=</span><span class="s">"page"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Active<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link disabled"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">tabindex</span><span class="o">=</span><span class="s">"-1"</span> <span class="na">aria-disabled</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Disabled<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span></code></pre>
+
+
+      <p>Right-aligned with <code>.justify-content-end</code>:</p>
+      <div class="bd-example">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1"
+                    aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+      </div>
+      <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+        data-placement="bottom" data-copy='
+      <ul class="nav justify-content-end">
+      <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+      </ul>
+
+      ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+      <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav justify-content-end"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link active"</span> <span class="na">aria-current</span><span class="o">=</span><span class="s">"page"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Active<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link disabled"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">tabindex</span><span class="o">=</span><span class="s">"-1"</span> <span class="na">aria-disabled</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Disabled<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span></code></pre>
+
+</p>
+
+
+
+<h4 id="list-item-4">Vertical</h4>
+<p>
+    <p>Stack your navigation by changing the flex item direction with the <code>.flex-column</code>
+        utility. Need to stack them on some viewports but not others? Use the responsive versions
+        (e.g., <code>.flex-sm-column</code>).</p>
+      <div class="bd-example">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1"
+                    aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+      </div>
+
+
+      <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+        data-placement="bottom" data-copy='
+      <ul class="nav flex-column">
+      <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+      </ul>
+
+      ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+      <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav flex-column"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link active"</span> <span class="na">aria-current</span><span class="o">=</span><span class="s">"page"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Active<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link disabled"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">tabindex</span><span class="o">=</span><span class="s">"-1"</span> <span class="na">aria-disabled</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Disabled<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span></code></pre>
+      <p>As always, vertical navigation is possible without <code>&lt;ul&gt;</code>s, too.</p>
+      <div class="bd-example">
+        <nav class="nav flex-column">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </nav>
+      </div>
+      <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+        data-placement="bottom" data-copy='
+      <nav class="nav flex-column">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </nav>
+
+      ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+
+      <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">nav</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav flex-column"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link active"</span> <span class="na">aria-current</span><span class="o">=</span><span class="s">"page"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Active<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link disabled"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">tabindex</span><span class="o">=</span><span class="s">"-1"</span> <span class="na">aria-disabled</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Disabled<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">nav</span><span class="p">&gt;</span></code></pre>
+
+
+      <p>As always, vertical navigation is possible without <code>&lt;ul&gt;</code>s, too.</p>
+      <div class="bd-example">
+        <nav class="nav flex-column">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </nav>
+      </div>
+      <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+        data-placement="bottom" data-copy='
+      <nav class="nav flex-column">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </nav>
+
+      ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+      <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">nav</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav flex-column"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link active"</span> <span class="na">aria-current</span><span class="o">=</span><span class="s">"page"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Active<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link disabled"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">tabindex</span><span class="o">=</span><span class="s">"-1"</span> <span class="na">aria-disabled</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Disabled<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">nav</span><span class="p">&gt;</span></code></pre>
+
+</p>
+
+
+
+<h4 id="list-item-5">Tabs</h4>
+<p>
+    <p>Takes the basic nav from above and adds the <code>.nav-tabs</code> class to generate a tabbed
+        interface. Use them to create tabbable regions with our <a href="#javascript-behavior">tab
+            JavaScript plugin</a>.</p>
+      <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav nav-tabs"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link active"</span> <span class="na">aria-current</span><span class="o">=</span><span class="s">"page"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Active<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link disabled"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">tabindex</span><span class="o">=</span><span class="s">"-1"</span> <span class="na">aria-disabled</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Disabled<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span></code></pre>
+      <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+        data-placement="bottom" data-copy='
+      <ul class="nav nav-tabs">
+      <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+      </ul>
+
+      ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+      <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav nav-tabs"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link active"</span> <span class="na">aria-current</span><span class="o">=</span><span class="s">"page"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Active<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link disabled"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">tabindex</span><span class="o">=</span><span class="s">"-1"</span> <span class="na">aria-disabled</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Disabled<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span></code></pre>
+
+</p>
+
+
+
+<h4 id="list-item-6">Pills</h4>
+<p>
+    <p>Take that same HTML, but use <code>.nav-pills</code> instead:</p>
+    <div class="bd-example">
+      <ul class="nav nav-pills">
+          <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1"
+                  aria-disabled="true">Disabled</a>
+          </li>
+      </ul>
+    </div>
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+      data-placement="bottom" data-copy='
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+
+      ' title="Copy to clipboard">
+
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+          viewBox="0 0 24 24">
+          <path
+              d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+      </svg>
+    </button>
+    <pre
+    class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav nav-pills"</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link active"</span> <span class="na">aria-current</span><span class="o">=</span><span class="s">"page"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Active<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link disabled"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">tabindex</span><span class="o">=</span><span class="s">"-1"</span> <span class="na">aria-disabled</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Disabled<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span></code></pre>
+
+</p>
+
+
+
+<h4 id="list-item-7">Fill and justify</h4>
+<p>
+    <p>Force your <code>.nav</code>’s contents to extend the full available width one of two
+        modifier classes. To proportionately fill all available space with your
+        <code>.nav-item</code>s, use <code>.nav-fill</code>. Notice that all horizontal space is
+        occupied, but not every nav item has the same width.
+      </p>
+
+      <div class="bd-example">
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Much longer nav link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1"
+                    aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+      </div>
+
+      <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+        data-placement="bottom" data-copy='
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Much longer nav link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+
+            ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+
+      <pre
+      class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav nav-pills nav-fill"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link active"</span> <span class="na">aria-current</span><span class="o">=</span><span class="s">"page"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Active<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Much longer nav link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link disabled"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">tabindex</span><span class="o">=</span><span class="s">"-1"</span> <span class="na">aria-disabled</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Disabled<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span></code></pre>
+      <p>When using a <code>&lt;nav&gt;</code>-based navigation, you can safely omit
+        <code>.nav-item</code> as only <code>.nav-link</code> is required for styling
+        <code>&lt;a&gt;</code> elements.
+      </p>
+
+      <div class="bd-example">
+        <nav class="nav nav-pills nav-fill">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+            <a class="nav-link" href="#">Much longer nav link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </nav>
+      </div>
+
+
+      <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+        data-placement="bottom" data-copy='
+            <nav class="nav nav-pills nav-fill">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+                <a class="nav-link" href="#">Much longer nav link</a>
+                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </nav>
+
+                ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+      <pre
+        class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">nav</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav nav-pills nav-fill"</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link active"</span> <span class="na">aria-current</span><span class="o">=</span><span class="s">"page"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Active<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Much longer nav link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link disabled"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">tabindex</span><span class="o">=</span><span class="s">"-1"</span> <span class="na">aria-disabled</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Disabled<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+              <span class="p">&lt;/</span><span class="nt">nav</span><span class="p">&gt;</span></code></pre>
+
+
+
+      <p>For equal-width elements, use <code>.nav-justified</code>. All horizontal space will be
+        occupied by nav links, but unlike the <code>.nav-fill</code> above, every nav item will be
+        the same width.</p>
+      <div class="bd-example">
+        <ul class="nav nav-pills nav-justified">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Much longer nav link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1"
+                    aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+      </div>
+
+      <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+        data-placement="bottom" data-copy='
+                <ul class="nav nav-pills nav-justified">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Much longer nav link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+
+                    ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+      <pre
+      class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav nav-pills nav-justified"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link active"</span> <span class="na">aria-current</span><span class="o">=</span><span class="s">"page"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Active<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Much longer nav link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link disabled"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">tabindex</span><span class="o">=</span><span class="s">"-1"</span> <span class="na">aria-disabled</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Disabled<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span></code></pre>
+
+
+
+      <p>Similar to the <code>.nav-fill</code> example using a <code>&lt;nav&gt;</code>-based
+        navigation.</p>
+
+      <div class="bd-example">
+        <nav class="nav nav-pills nav-justified">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+            <a class="nav-link" href="#">Much longer nav link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </nav>
+
+      </div> <button type="button" class="btn btn-default btn-copy js-tooltip js-copy"
+        data-toggle="tooltip" data-placement="bottom" data-copy='
+      <nav class="nav nav-pills nav-justified">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+      <a class="nav-link" href="#">Much longer nav link</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </nav>
+
+                        ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+      <pre
+      class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">nav</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav nav-pills nav-justified"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link active"</span> <span class="na">aria-current</span><span class="o">=</span><span class="s">"page"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Active<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Much longer nav link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link disabled"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">tabindex</span><span class="o">=</span><span class="s">"-1"</span> <span class="na">aria-disabled</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Disabled<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">nav</span><span class="p">&gt;</span></code></pre>
+
+</p>
+
+
+
+<h4 id="list-item-8">Working with flex utilities</h4>
+<p>
+    <p>If you need responsive nav variations, consider using a series of flexbox utilities. While
+        more verbose, these utilities offer greater customization across responsive breakpoints. In
+        the example below, our nav will be stacked on the lowest breakpoint, then adapt to a
+        horizontal layout that fills the available width starting from the small breakpoint.</p>
+      <div class="bd-example">
+        <nav class="nav nav-pills flex-column flex-sm-row">
+            <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page"
+                href="#">Active</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">Longer nav link</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">Link</a>
+            <a class="flex-sm-fill text-sm-center nav-link disabled" href="#" tabindex="-1"
+                aria-disabled="true">Disabled</a>
+        </nav>
+      </div>
+
+      <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+        data-placement="bottom" data-copy='
+      <nav class="nav nav-pills flex-column flex-sm-row">
+      <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">Active</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="#">Longer nav link</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="#">Link</a>
+      <a class="flex-sm-fill text-sm-center nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </nav>
+
+                            ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+      <pre
+      class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">nav</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav nav-pills flex-column flex-sm-row"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"flex-sm-fill text-sm-center nav-link active"</span> <span class="na">aria-current</span><span class="o">=</span><span class="s">"page"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Active<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"flex-sm-fill text-sm-center nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Longer nav link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"flex-sm-fill text-sm-center nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"flex-sm-fill text-sm-center nav-link disabled"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">tabindex</span><span class="o">=</span><span class="s">"-1"</span> <span class="na">aria-disabled</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Disabled<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">nav</span><span class="p">&gt;</span></code></pre>
+
+
+</p>
+
+
+
+<h4 id="list-item-9">Tabs with dropdowns</h4>
+<p>
+    <div class="bd-example">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu" style="">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1"
+                    aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+      </div>
+
+      <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+        data-placement="bottom" data-copy='
+<ul class="nav nav-tabs">
+<li class="nav-item">
+<a class="nav-link active" aria-current="page" href="#">Active</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Action</a></li>
+<li><a class="dropdown-item" href="#">Another action</a></li>
+<li><a class="dropdown-item" href="#">Something else here</a></li>
+<li><hr class="dropdown-divider"></li>
+<li><a class="dropdown-item" href="#">Separated link</a></li>
+</ul>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Link</a>
+</li>
+<li class="nav-item">
+<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+</li>
+</ul>
+' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+      <pre
+      class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav nav-tabs"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link active"</span> <span class="na">aria-current</span><span class="o">=</span><span class="s">"page"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Active<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item dropdown"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link dropdown-toggle"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"dropdown"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">role</span><span class="o">=</span><span class="s">"button"</span> <span class="na">aria-expanded</span><span class="o">=</span><span class="s">"false"</span><span class="p">&gt;</span>Dropdown<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">"dropdown-menu"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"dropdown-item"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Action<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"dropdown-item"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Another action<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"dropdown-item"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Something else here<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;</span><span class="nt">hr</span> <span class="na">class</span><span class="o">=</span><span class="s">"dropdown-divider"</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"dropdown-item"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Separated link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link disabled"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">tabindex</span><span class="o">=</span><span class="s">"-1"</span> <span class="na">aria-disabled</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Disabled<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span></code></pre>
+
+
+</p>
+
+
+
+<h4 id="list-item-10">Pills with dropdowns</h4>
+<p>
+    <div class="bd-example">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1"
+                    aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+      </div> <button type="button" class="btn btn-default btn-copy js-tooltip js-copy"
+        data-toggle="tooltip" data-placement="bottom" data-copy='
+      <ul class="nav nav-pills">
+      <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+      </li>
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+      <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+      </ul>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+      </ul>
+
+                                    ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+
+
+      <pre
+      class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav nav-pills"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link active"</span> <span class="na">aria-current</span><span class="o">=</span><span class="s">"page"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Active<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item dropdown"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link dropdown-toggle"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"dropdown"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">role</span><span class="o">=</span><span class="s">"button"</span> <span class="na">aria-expanded</span><span class="o">=</span><span class="s">"false"</span><span class="p">&gt;</span>Dropdown<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">"dropdown-menu"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"dropdown-item"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Action<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"dropdown-item"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Another action<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"dropdown-item"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Something else here<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;</span><span class="nt">hr</span> <span class="na">class</span><span class="o">=</span><span class="s">"dropdown-divider"</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"dropdown-item"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Separated link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span><span class="p">&gt;</span>Link<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">a</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link disabled"</span> <span class="na">href</span><span class="o">=</span><span class="s">"#"</span> <span class="na">tabindex</span><span class="o">=</span><span class="s">"-1"</span> <span class="na">aria-disabled</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Disabled<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span></code></pre>
+
+</p>
+
+
+
+<h4 id="list-item-11">Javscript behavior</h4>
+<p>
+    <p>Use the tab JavaScript plugin—include it individually or through the compiled
+        <code>bootstrap.js</code> file—to extend our navigational tabs and pills to create tabbable
+        panes of local content.
+      </p>
+      <p>Dynamic tabbed interfaces, as described in the <abbr
+            title="Web Accessibility Initiative">WAI</abbr> <abbr
+            title="Accessible Rich Internet Applications">ARIA</abbr> Authoring Practices, require
+        <code>role="tablist"</code>, <code>role="tab"</code>, <code>role="tabpanel"</code>, and
+        additional <code>aria-</code> attributes in order to convey their structure, functionality
+        and current state to users of assistive technologies (such as screen readers). As a best
+        practice, we recommend using <code>&lt;button&gt;</code> elements for the tabs, as these are
+        controls that trigger a dynamic change, rather than links that navigate to a new page or
+        location.
+      </p>
+      <p>Note that dynamic tabbed interfaces should <em>not</em> contain dropdown menus, as this
+        causes both usability and accessibility issues. From a usability perspective, the fact that
+        the currently displayed tab’s trigger element is not immediately visible (as it’s inside the
+        closed dropdown menu) can cause confusion. From an accessibility point of view, there is
+        currently no sensible way to map this sort of construct to a standard WAI ARIA pattern,
+        meaning that it cannot be easily made understandable to users of assistive technologies.</p>
+      <div class="bd-example">
+        <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                    data-bs-target="#home" type="button" role="tab" aria-controls="home"
+                    aria-selected="true">Home</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                    data-bs-target="#profile" type="button" role="tab" aria-controls="profile"
+                    aria-selected="false">Profile</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                    data-bs-target="#contact" type="button" role="tab" aria-controls="contact"
+                    aria-selected="false">Contact</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel"
+                aria-labelledby="home-tab">
+                <p><strong>This is some placeholder content the Home tab's associated
+                        content.</strong> Clicking another tab will toggle the visibility of this
+                    one for the next. The tab JavaScript swaps classes to control the content
+                    visibility and styling. You can use it with tabs, pills, and any other
+                    <code>.nav</code>-powered navigation.
+                </p>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <p><strong>This is some placeholder content the Profile tab's associated
+                        content.</strong> Clicking another tab will toggle the visibility of this
+                    one for the next. The tab JavaScript swaps classes to control the content
+                    visibility and styling. You can use it with tabs, pills, and any other
+                    <code>.nav</code>-powered navigation.
+                </p>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <p><strong>This is some placeholder content the Contact tab's associated
+                        content.</strong> Clicking another tab will toggle the visibility of this
+                    one for the next. The tab JavaScript swaps classes to control the content
+                    visibility and styling. You can use it with tabs, pills, and any other
+                    <code>.nav</code>-powered navigation.
+                </p>
+            </div>
+        </div>
+      </div>
+
+
+      <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+        data-placement="bottom" data-copy='
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+      </li>
+      <li class="nav-item" role="presentation">
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+      </li>
+      <li class="nav-item" role="presentation">
+      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+      </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+      </div>
+
+                                      ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+      <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav nav-tabs"</span> <span class="na">id</span><span class="o">=</span><span class="s">"myTab"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tablist"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span> <span class="na">role</span><span class="o">=</span><span class="s">"presentation"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link active"</span> <span class="na">id</span><span class="o">=</span><span class="s">"home-tab"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">data-bs-target</span><span class="o">=</span><span class="s">"#home"</span> <span class="na">type</span><span class="o">=</span><span class="s">"button"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">aria-controls</span><span class="o">=</span><span class="s">"home"</span> <span class="na">aria-selected</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Home<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span> <span class="na">role</span><span class="o">=</span><span class="s">"presentation"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">id</span><span class="o">=</span><span class="s">"profile-tab"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">data-bs-target</span><span class="o">=</span><span class="s">"#profile"</span> <span class="na">type</span><span class="o">=</span><span class="s">"button"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">aria-controls</span><span class="o">=</span><span class="s">"profile"</span> <span class="na">aria-selected</span><span class="o">=</span><span class="s">"false"</span><span class="p">&gt;</span>Profile<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span> <span class="na">role</span><span class="o">=</span><span class="s">"presentation"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">id</span><span class="o">=</span><span class="s">"contact-tab"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">data-bs-target</span><span class="o">=</span><span class="s">"#contact"</span> <span class="na">type</span><span class="o">=</span><span class="s">"button"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">aria-controls</span><span class="o">=</span><span class="s">"contact"</span> <span class="na">aria-selected</span><span class="o">=</span><span class="s">"false"</span><span class="p">&gt;</span>Contact<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-content"</span> <span class="na">id</span><span class="o">=</span><span class="s">"myTabContent"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane fade show active"</span> <span class="na">id</span><span class="o">=</span><span class="s">"home"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"home-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane fade"</span> <span class="na">id</span><span class="o">=</span><span class="s">"profile"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"profile-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane fade"</span> <span class="na">id</span><span class="o">=</span><span class="s">"contact"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"contact-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      </code></pre>
+
+      <p>To help fit your needs, this works with <code>&lt;ul&gt;</code>-based markup, as shown above,
+        or with any arbitrary “roll your own” markup. Note that if you’re using
+        <code>&lt;nav&gt;</code>, you shouldn’t add <code>role="tablist"</code> directly to it, as
+        this would override the element’s native role as a navigation landmark. Instead, switch to
+        an alternative element (in the example below, a simple <code>&lt;div&gt;</code>) and wrap
+        the <code>&lt;nav&gt;</code> around it.
+      </p>
+
+
+
+      <div class="bd-example">
+        <nav>
+            <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                    data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                    aria-selected="true">Home</button>
+                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                    data-bs-target="#nav-profile" type="button" role="tab"
+                    aria-controls="nav-profile" aria-selected="false">Profile</button>
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
+                    data-bs-target="#nav-contact" type="button" role="tab"
+                    aria-controls="nav-contact" aria-selected="false">Contact</button>
+            </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                aria-labelledby="nav-home-tab">
+                <p><strong>This is some placeholder content the Home tab's associated
+                        content.</strong> Clicking another tab will toggle the visibility of this
+                    one for the next. The tab JavaScript swaps classes to control the content
+                    visibility and styling. You can use it with tabs, pills, and any other
+                    <code>.nav</code>-powered navigation.
+                </p>
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                aria-labelledby="nav-profile-tab">
+                <p><strong>This is some placeholder content the Profile tab's associated
+                        content.</strong> Clicking another tab will toggle the visibility of this
+                    one for the next. The tab JavaScript swaps classes to control the content
+                    visibility and styling. You can use it with tabs, pills, and any other
+                    <code>.nav</code>-powered navigation.
+                </p>
+            </div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel"
+                aria-labelledby="nav-contact-tab">
+                <p><strong>This is some placeholder content the Contact tab's associated
+                        content.</strong> Clicking another tab will toggle the visibility of this
+                    one for the next. The tab JavaScript swaps classes to control the content
+                    visibility and styling. You can use it with tabs, pills, and any other
+                    <code>.nav</code>-powered navigation.
+                </p>
+            </div>
+        </div>
+      </div> <button type="button" class="btn btn-default btn-copy js-tooltip js-copy"
+        data-toggle="tooltip" data-placement="bottom" data-copy='
+      <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+      <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
+      <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+      </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
+      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+      </div>
+
+                                          ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+      <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">nav</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav nav-tabs"</span> <span class="na">id</span><span class="o">=</span><span class="s">"nav-tab"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tablist"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link active"</span> <span class="na">id</span><span class="o">=</span><span class="s">"nav-home-tab"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">data-bs-target</span><span class="o">=</span><span class="s">"#nav-home"</span> <span class="na">type</span><span class="o">=</span><span class="s">"button"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">aria-controls</span><span class="o">=</span><span class="s">"nav-home"</span> <span class="na">aria-selected</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Home<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">id</span><span class="o">=</span><span class="s">"nav-profile-tab"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">data-bs-target</span><span class="o">=</span><span class="s">"#nav-profile"</span> <span class="na">type</span><span class="o">=</span><span class="s">"button"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">aria-controls</span><span class="o">=</span><span class="s">"nav-profile"</span> <span class="na">aria-selected</span><span class="o">=</span><span class="s">"false"</span><span class="p">&gt;</span>Profile<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">id</span><span class="o">=</span><span class="s">"nav-contact-tab"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">data-bs-target</span><span class="o">=</span><span class="s">"#nav-contact"</span> <span class="na">type</span><span class="o">=</span><span class="s">"button"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">aria-controls</span><span class="o">=</span><span class="s">"nav-contact"</span> <span class="na">aria-selected</span><span class="o">=</span><span class="s">"false"</span><span class="p">&gt;</span>Contact<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">nav</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-content"</span> <span class="na">id</span><span class="o">=</span><span class="s">"nav-tabContent"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane fade show active"</span> <span class="na">id</span><span class="o">=</span><span class="s">"nav-home"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"nav-home-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane fade"</span> <span class="na">id</span><span class="o">=</span><span class="s">"nav-profile"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"nav-profile-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane fade"</span> <span class="na">id</span><span class="o">=</span><span class="s">"nav-contact"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"nav-contact-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      </code></pre>
+
+
+      <p>The tabs plugin also works with pills.</p>
+
+
+      <div class="bd-example">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                    aria-selected="true">Home</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-profile" type="button" role="tab"
+                    aria-controls="pills-profile" aria-selected="false">Profile</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-contact" type="button" role="tab"
+                    aria-controls="pills-contact" aria-selected="false">Contact</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                aria-labelledby="pills-home-tab">
+                <p><strong>This is some placeholder content the Home tab's associated
+                        content.</strong> Clicking another tab will toggle the visibility of this
+                    one for the next. The tab JavaScript swaps classes to control the content
+                    visibility and styling. You can use it with tabs, pills, and any other
+                    <code>.nav</code>-powered navigation.
+                </p>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                aria-labelledby="pills-profile-tab">
+                <p><strong>This is some placeholder content the Profile tab's associated
+                        content.</strong> Clicking another tab will toggle the visibility of this
+                    one for the next. The tab JavaScript swaps classes to control the content
+                    visibility and styling. You can use it with tabs, pills, and any other
+                    <code>.nav</code>-powered navigation.
+                </p>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                aria-labelledby="pills-contact-tab">
+                <p><strong>This is some placeholder content the Contact tab's associated
+                        content.</strong> Clicking another tab will toggle the visibility of this
+                    one for the next. The tab JavaScript swaps classes to control the content
+                    visibility and styling. You can use it with tabs, pills, and any other
+                    <code>.nav</code>-powered navigation.
+                </p>
+            </div>
+        </div>
+      </div>
+
+      <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+        data-placement="bottom" data-copy='
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+      </li>
+      <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+      </li>
+      <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+      </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+      </div>
+
+                                              ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+
+      <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav nav-pills mb-3"</span> <span class="na">id</span><span class="o">=</span><span class="s">"pills-tab"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tablist"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span> <span class="na">role</span><span class="o">=</span><span class="s">"presentation"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link active"</span> <span class="na">id</span><span class="o">=</span><span class="s">"pills-home-tab"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"pill"</span> <span class="na">data-bs-target</span><span class="o">=</span><span class="s">"#pills-home"</span> <span class="na">type</span><span class="o">=</span><span class="s">"button"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">aria-controls</span><span class="o">=</span><span class="s">"pills-home"</span> <span class="na">aria-selected</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Home<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span> <span class="na">role</span><span class="o">=</span><span class="s">"presentation"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">id</span><span class="o">=</span><span class="s">"pills-profile-tab"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"pill"</span> <span class="na">data-bs-target</span><span class="o">=</span><span class="s">"#pills-profile"</span> <span class="na">type</span><span class="o">=</span><span class="s">"button"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">aria-controls</span><span class="o">=</span><span class="s">"pills-profile"</span> <span class="na">aria-selected</span><span class="o">=</span><span class="s">"false"</span><span class="p">&gt;</span>Profile<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span> <span class="na">role</span><span class="o">=</span><span class="s">"presentation"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">id</span><span class="o">=</span><span class="s">"pills-contact-tab"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"pill"</span> <span class="na">data-bs-target</span><span class="o">=</span><span class="s">"#pills-contact"</span> <span class="na">type</span><span class="o">=</span><span class="s">"button"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">aria-controls</span><span class="o">=</span><span class="s">"pills-contact"</span> <span class="na">aria-selected</span><span class="o">=</span><span class="s">"false"</span><span class="p">&gt;</span>Contact<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-content"</span> <span class="na">id</span><span class="o">=</span><span class="s">"pills-tabContent"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane fade show active"</span> <span class="na">id</span><span class="o">=</span><span class="s">"pills-home"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"pills-home-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane fade"</span> <span class="na">id</span><span class="o">=</span><span class="s">"pills-profile"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"pills-profile-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane fade"</span> <span class="na">id</span><span class="o">=</span><span class="s">"pills-contact"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"pills-contact-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      </code></pre>
+
+      <p>And with vertical pills.</p>
+
+      <div class="bd-example">
+        <div class="d-flex align-items-start">
+            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                aria-orientation="vertical">
+                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-home" type="button" role="tab"
+                    aria-controls="v-pills-home" aria-selected="true">Home</button>
+                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-profile" type="button" role="tab"
+                    aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+                <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-messages" type="button" role="tab"
+                    aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-settings" type="button" role="tab"
+                    aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+            </div>
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                    aria-labelledby="v-pills-home-tab">
+                    <p><strong>This is some placeholder content the Home tab's associated
+                            content.</strong> Clicking another tab will toggle the visibility of
+                        this one for the next. The tab JavaScript swaps classes to control the
+                        content visibility and styling. You can use it with tabs, pills, and any
+                        other <code>.nav</code>-powered navigation.</p>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                    aria-labelledby="v-pills-profile-tab">
+                    <p><strong>This is some placeholder content the Profile tab's associated
+                            content.</strong> Clicking another tab will toggle the visibility of
+                        this one for the next. The tab JavaScript swaps classes to control the
+                        content visibility and styling. You can use it with tabs, pills, and any
+                        other <code>.nav</code>-powered navigation.</p>
+                </div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                    aria-labelledby="v-pills-messages-tab">
+                    <p><strong>This is some placeholder content the Messages tab's associated
+                            content.</strong> Clicking another tab will toggle the visibility of
+                        this one for the next. The tab JavaScript swaps classes to control the
+                        content visibility and styling. You can use it with tabs, pills, and any
+                        other <code>.nav</code>-powered navigation.</p>
+                </div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                    aria-labelledby="v-pills-settings-tab">
+                    <p><strong>This is some placeholder content the Settings tab's associated
+                            content.</strong> Clicking another tab will toggle the visibility of
+                        this one for the next. The tab JavaScript swaps classes to control the
+                        content visibility and styling. You can use it with tabs, pills, and any
+                        other <code>.nav</code>-powered navigation.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+        data-placement="bottom" data-copy='
+      <div class="d-flex align-items-start">
+      <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+      <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+      <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+      </div>
+      <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+      </div>
+      </div>
+
+                                                  ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+
+      <div class="highlight">
+        <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"d-flex align-items-start"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav flex-column nav-pills me-3"</span> <span class="na">id</span><span class="o">=</span><span class="s">"v-pills-tab"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tablist"</span> <span class="na">aria-orientation</span><span class="o">=</span><span class="s">"vertical"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link active"</span> <span class="na">id</span><span class="o">=</span><span class="s">"v-pills-home-tab"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"pill"</span> <span class="na">data-bs-target</span><span class="o">=</span><span class="s">"#v-pills-home"</span> <span class="na">type</span><span class="o">=</span><span class="s">"button"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">aria-controls</span><span class="o">=</span><span class="s">"v-pills-home"</span> <span class="na">aria-selected</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Home<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">id</span><span class="o">=</span><span class="s">"v-pills-profile-tab"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"pill"</span> <span class="na">data-bs-target</span><span class="o">=</span><span class="s">"#v-pills-profile"</span> <span class="na">type</span><span class="o">=</span><span class="s">"button"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">aria-controls</span><span class="o">=</span><span class="s">"v-pills-profile"</span> <span class="na">aria-selected</span><span class="o">=</span><span class="s">"false"</span><span class="p">&gt;</span>Profile<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">id</span><span class="o">=</span><span class="s">"v-pills-messages-tab"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"pill"</span> <span class="na">data-bs-target</span><span class="o">=</span><span class="s">"#v-pills-messages"</span> <span class="na">type</span><span class="o">=</span><span class="s">"button"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">aria-controls</span><span class="o">=</span><span class="s">"v-pills-messages"</span> <span class="na">aria-selected</span><span class="o">=</span><span class="s">"false"</span><span class="p">&gt;</span>Messages<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">id</span><span class="o">=</span><span class="s">"v-pills-settings-tab"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"pill"</span> <span class="na">data-bs-target</span><span class="o">=</span><span class="s">"#v-pills-settings"</span> <span class="na">type</span><span class="o">=</span><span class="s">"button"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">aria-controls</span><span class="o">=</span><span class="s">"v-pills-settings"</span> <span class="na">aria-selected</span><span class="o">=</span><span class="s">"false"</span><span class="p">&gt;</span>Settings<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-content"</span> <span class="na">id</span><span class="o">=</span><span class="s">"v-pills-tabContent"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane fade show active"</span> <span class="na">id</span><span class="o">=</span><span class="s">"v-pills-home"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"v-pills-home-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane fade"</span> <span class="na">id</span><span class="o">=</span><span class="s">"v-pills-profile"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"v-pills-profile-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane fade"</span> <span class="na">id</span><span class="o">=</span><span class="s">"v-pills-messages"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"v-pills-messages-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane fade"</span> <span class="na">id</span><span class="o">=</span><span class="s">"v-pills-settings"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"v-pills-settings-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      </code></pre>
+      </div>
+
+
+</p>
+
+
+
+<h4 id="list-item-12">Using data attributes</h4>
+<p>
+    <p>You can activate a tab or pill navigation without writing any JavaScript by simply specifying
+        <code>data-bs-toggle="tab"</code> or <code>data-bs-toggle="pill"</code> on an element. Use
+        these data attributes on <code>.nav-tabs</code> or <code>.nav-pills</code>.
+      </p>
+
+
+
+      <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+        data-placement="bottom" data-copy='
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+      </li>
+      <li class="nav-item" role="presentation">
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+      </li>
+      <li class="nav-item" role="presentation">
+      <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">Messages</button>
+      </li>
+      <li class="nav-item" role="presentation">
+      <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Settings</button>
+      </li>
+      </ul>
+      <!-- Tab panes -->
+      <div class="tab-content">
+      <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+      <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+      <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">...</div>
+      <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">...</div>
+      </div>
+
+            ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+      <pre class="chroma"><code class="language-html" data-lang="html"><span class="c">&lt;!-- Nav tabs --&gt;</span>
+      <span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav nav-tabs"</span> <span class="na">id</span><span class="o">=</span><span class="s">"myTab"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tablist"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span> <span class="na">role</span><span class="o">=</span><span class="s">"presentation"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link active"</span> <span class="na">id</span><span class="o">=</span><span class="s">"home-tab"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">data-bs-target</span><span class="o">=</span><span class="s">"#home"</span> <span class="na">type</span><span class="o">=</span><span class="s">"button"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">aria-controls</span><span class="o">=</span><span class="s">"home"</span> <span class="na">aria-selected</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Home<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span> <span class="na">role</span><span class="o">=</span><span class="s">"presentation"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">id</span><span class="o">=</span><span class="s">"profile-tab"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">data-bs-target</span><span class="o">=</span><span class="s">"#profile"</span> <span class="na">type</span><span class="o">=</span><span class="s">"button"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">aria-controls</span><span class="o">=</span><span class="s">"profile"</span> <span class="na">aria-selected</span><span class="o">=</span><span class="s">"false"</span><span class="p">&gt;</span>Profile<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span> <span class="na">role</span><span class="o">=</span><span class="s">"presentation"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">id</span><span class="o">=</span><span class="s">"messages-tab"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">data-bs-target</span><span class="o">=</span><span class="s">"#messages"</span> <span class="na">type</span><span class="o">=</span><span class="s">"button"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">aria-controls</span><span class="o">=</span><span class="s">"messages"</span> <span class="na">aria-selected</span><span class="o">=</span><span class="s">"false"</span><span class="p">&gt;</span>Messages<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span> <span class="na">role</span><span class="o">=</span><span class="s">"presentation"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">id</span><span class="o">=</span><span class="s">"settings-tab"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">data-bs-target</span><span class="o">=</span><span class="s">"#settings"</span> <span class="na">type</span><span class="o">=</span><span class="s">"button"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">aria-controls</span><span class="o">=</span><span class="s">"settings"</span> <span class="na">aria-selected</span><span class="o">=</span><span class="s">"false"</span><span class="p">&gt;</span>Settings<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+
+      <span class="c">&lt;!-- Tab panes --&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-content"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane active"</span> <span class="na">id</span><span class="o">=</span><span class="s">"home"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"home-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane"</span> <span class="na">id</span><span class="o">=</span><span class="s">"profile"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"profile-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane"</span> <span class="na">id</span><span class="o">=</span><span class="s">"messages"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"messages-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane"</span> <span class="na">id</span><span class="o">=</span><span class="s">"settings"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"settings-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      </code></pre>
+
+</p>
+
+
+<h4 id="list-item-13">Using JavaScript</h4>
+<p>
+    <p>Enable tabbable tabs via JavaScript (each tab needs to be activated individually):</p>
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+      data-placement="bottom" data-copy="
+          var triggerTabList = [].slice.call(document.querySelectorAll('#myTab a'))
+          triggerTabList.forEach(function (triggerEl) {
+            var tabTrigger = new bootstrap.Tab(triggerEl)
+
+            triggerEl.addEventListener('click', function (event) {
+              event.preventDefault()
+              tabTrigger.show()
+            })
+          })
+
+              " title="Copy to clipboard">
+
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+          viewBox="0 0 24 24">
+          <path
+              d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+      </svg>
+    </button>
+    <pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">triggerTabList</span> <span class="o">=</span> <span class="p">[].</span><span class="nx">slice</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="s1">'#myTab a'</span><span class="p">))</span>
+    <span class="nx">triggerTabList</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">triggerEl</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">tabTrigger</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">bootstrap</span><span class="p">.</span><span class="nx">Tab</span><span class="p">(</span><span class="nx">triggerEl</span><span class="p">)</span>
+    <span class="nx">triggerEl</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">'click'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">event</span><span class="p">.</span><span class="nx">preventDefault</span><span class="p">()</span>
+    <span class="nx">tabTrigger</span><span class="p">.</span><span class="nx">show</span><span class="p">()</span>
+    <span class="p">})</span>
+    <span class="p">})</span>
+    </code></pre>
+
+    <p>You can activate individual tabs in several ways:</p>
+
+    <div class="highlight">
+    <pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">triggerEl</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">'#myTab a[href="#profile"]'</span><span class="p">)</span>
+    <span class="nx">bootstrap</span><span class="p">.</span><span class="nx">Tab</span><span class="p">.</span><span class="nx">getInstance</span><span class="p">(</span><span class="nx">triggerEl</span><span class="p">).</span><span class="nx">show</span><span class="p">()</span> <span class="c1">// Select tab by name
+    </span><span class="c1"></span>
+    <span class="kd">var</span> <span class="nx">triggerFirstTabEl</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">'#myTab li:first-child a'</span><span class="p">)</span>
+    <span class="nx">bootstrap</span><span class="p">.</span><span class="nx">Tab</span><span class="p">.</span><span class="nx">getInstance</span><span class="p">(</span><span class="nx">triggerFirstTabEl</span><span class="p">).</span><span class="nx">show</span><span class="p">()</span> <span class="c1">// Select first tab
+    </span></code></pre>
+    </div>
+
+</p>
+
+
+<h4 id="list-item-14">Fade effect</h4>
+<p>
+    <p>To make tabs fade in, add <code>.fade</code> to each <code>.tab-pane</code>. The first tab
+        pane must also have <code>.show</code> to make the initial content visible.</p>
+      <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+        data-placement="bottom" data-copy='
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                        <div class="tab-pane fade" id="messages" role="tabpanel" aria-labelledby="messages-tab">...</div>
+                        <div class="tab-pane fade" id="settings" role="tabpanel" aria-labelledby="settings-tab">...</div>
+                      </div>
+
+                        ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+      <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-content"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane fade show active"</span> <span class="na">id</span><span class="o">=</span><span class="s">"home"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"home-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane fade"</span> <span class="na">id</span><span class="o">=</span><span class="s">"profile"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"profile-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane fade"</span> <span class="na">id</span><span class="o">=</span><span class="s">"messages"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"messages-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane fade"</span> <span class="na">id</span><span class="o">=</span><span class="s">"settings"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"settings-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      </code></pre>
+
+</p>
+
+
+<h4 id="list-item-15">constructor</h4>
+<p>
+    <p>Activates a tab element and content container. Tab should have either a
+        <code>data-bs-target</code> or, if using a link, an <code>href</code> attribute, targeting a
+        container node in the DOM.
+      </p>
+
+      <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+        data-placement="bottom" data-copy='
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+      </li>
+      <li class="nav-item" role="presentation">
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+      </li>
+      <li class="nav-item" role="presentation">
+      <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">Messages</button>
+      </li>
+      <li class="nav-item" role="presentation">
+      <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Settings</button>
+      </li>
+      </ul>
+
+      <div class="tab-content">
+      <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+      <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+      <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">...</div>
+      <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">...</div>
+      </div>
+
+      <script>
+      var firstTabEl = document.querySelector("#myTab li:last-child a")
+      var firstTab = new bootstrap.Tab(firstTabEl)
+
+      firstTab.show()
+      </script>
+
+            ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+      <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav nav-tabs"</span> <span class="na">id</span><span class="o">=</span><span class="s">"myTab"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tablist"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span> <span class="na">role</span><span class="o">=</span><span class="s">"presentation"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link active"</span> <span class="na">id</span><span class="o">=</span><span class="s">"home-tab"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">data-bs-target</span><span class="o">=</span><span class="s">"#home"</span> <span class="na">type</span><span class="o">=</span><span class="s">"button"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">aria-controls</span><span class="o">=</span><span class="s">"home"</span> <span class="na">aria-selected</span><span class="o">=</span><span class="s">"true"</span><span class="p">&gt;</span>Home<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span> <span class="na">role</span><span class="o">=</span><span class="s">"presentation"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">id</span><span class="o">=</span><span class="s">"profile-tab"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">data-bs-target</span><span class="o">=</span><span class="s">"#profile"</span> <span class="na">type</span><span class="o">=</span><span class="s">"button"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">aria-controls</span><span class="o">=</span><span class="s">"profile"</span> <span class="na">aria-selected</span><span class="o">=</span><span class="s">"false"</span><span class="p">&gt;</span>Profile<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span> <span class="na">role</span><span class="o">=</span><span class="s">"presentation"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">id</span><span class="o">=</span><span class="s">"messages-tab"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">data-bs-target</span><span class="o">=</span><span class="s">"#messages"</span> <span class="na">type</span><span class="o">=</span><span class="s">"button"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">aria-controls</span><span class="o">=</span><span class="s">"messages"</span> <span class="na">aria-selected</span><span class="o">=</span><span class="s">"false"</span><span class="p">&gt;</span>Messages<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-item"</span> <span class="na">role</span><span class="o">=</span><span class="s">"presentation"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">"nav-link"</span> <span class="na">id</span><span class="o">=</span><span class="s">"settings-tab"</span> <span class="na">data-bs-toggle</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">data-bs-target</span><span class="o">=</span><span class="s">"#settings"</span> <span class="na">type</span><span class="o">=</span><span class="s">"button"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tab"</span> <span class="na">aria-controls</span><span class="o">=</span><span class="s">"settings"</span> <span class="na">aria-selected</span><span class="o">=</span><span class="s">"false"</span><span class="p">&gt;</span>Settings<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-content"</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane active"</span> <span class="na">id</span><span class="o">=</span><span class="s">"home"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"home-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane"</span> <span class="na">id</span><span class="o">=</span><span class="s">"profile"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"profile-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane"</span> <span class="na">id</span><span class="o">=</span><span class="s">"messages"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"messages-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"tab-pane"</span> <span class="na">id</span><span class="o">=</span><span class="s">"settings"</span> <span class="na">role</span><span class="o">=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby</span><span class="o">=</span><span class="s">"settings-tab"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+
+      <span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+      <span class="kd">var</span> <span class="nx">firstTabEl</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">'#myTab li:last-child a'</span><span class="p">)</span>
+      <span class="kd">var</span> <span class="nx">firstTab</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">bootstrap</span><span class="p">.</span><span class="nx">Tab</span><span class="p">(</span><span class="nx">firstTabEl</span><span class="p">)</span>
+
+      <span class="nx">firstTab</span><span class="p">.</span><span class="nx">show</span><span class="p">()</span>
+      <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+      </code></pre>
+</p>
+
+
+<h4 id="list-item-16">show</h4>
+<p>
+    <p>Selects the given tab and shows its associated pane. Any other tab that was previously
+        selected becomes unselected and its associated pane is hidden. <strong>Returns to the caller
+            before the tab pane has actually been shown</strong> (i.e. before the
+        <code>shown.bs.tab</code> event occurs).
+      </p>
+      <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+        data-placement="bottom" data-copy='
+        var someTabTriggerEl = document.querySelector("#someTabTrigger")
+      var tab = new bootstrap.Tab(someTabTriggerEl)
+
+      tab.show()
+            ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+      <pre class="chroma"><code class="language-js" data-lang="js">  <span class="kd">var</span> <span class="nx">someTabTriggerEl</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">'#someTabTrigger'</span><span class="p">)</span>
+      <span class="kd">var</span> <span class="nx">tab</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">bootstrap</span><span class="p">.</span><span class="nx">Tab</span><span class="p">(</span><span class="nx">someTabTriggerEl</span><span class="p">)</span>
+
+      <span class="nx">tab</span><span class="p">.</span><span class="nx">show</span><span class="p">()</span>
+      </code></pre>
+      <span class="fs-3 fw-bolder my-5">
+        getInstance
+      </span>
+      <p><em>Static</em> method which allows you to get the tab instance associated with a DOM element
+      </p>
+
+      <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+        data-placement="bottom" data-copy='
+        var triggerEl = document.querySelector("#trigger")
+        var tab = bootstrap.Tab.getInstance(triggerEl) // Returns a Bootstrap tab instance
+
+            ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+      <pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">triggerEl</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">'#trigger'</span><span class="p">)</span>
+      <span class="kd">var</span> <span class="nx">tab</span> <span class="o">=</span> <span class="nx">bootstrap</span><span class="p">.</span><span class="nx">Tab</span><span class="p">.</span><span class="nx">getInstance</span><span class="p">(</span><span class="nx">triggerEl</span><span class="p">)</span> <span class="c1">// Returns a Bootstrap tab instance
+      </span></code></pre>
+      <span class="fs-3 fw-bolder my-5">
+        Events
+      </span>
+      <p>When showing a new tab, the events fire in the following order:</p>
+      <ol>
+        <li><code>hide.bs.tab</code> (on the current active tab)</li>
+        <li><code>show.bs.tab</code> (on the to-be-shown tab)</li>
+        <li><code>hidden.bs.tab</code> (on the previous active tab, the same one as for the
+            <code>hide.bs.tab</code> event)
+        </li>
+        <li><code>shown.bs.tab</code> (on the newly-active just-shown tab, the same one as for the
+            <code>show.bs.tab</code> event)
+        </li>
+      </ol>
+      <p>If no tab was already active, then the <code>hide.bs.tab</code> and
+        <code>hidden.bs.tab</code> events will not be fired.
+      </p>
+      <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th style="width: 150px;">Event type</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>show.bs.tab</code></td>
+                    <td>This event fires on tab show, but before the new tab has been shown. Use
+                        <code>event.target</code> and <code>event.relatedTarget</code> to target the
+                        active tab and the previous active tab (if available) respectively.
+                    </td>
+                </tr>
+                <tr>
+                    <td><code>shown.bs.tab</code></td>
+                    <td>This event fires on tab show after a tab has been shown. Use
+                        <code>event.target</code> and <code>event.relatedTarget</code> to target the
+                        active tab and the previous active tab (if available) respectively.
+                    </td>
+                </tr>
+                <tr>
+                    <td><code>hide.bs.tab</code></td>
+                    <td>This event fires when a new tab is to be shown (and thus the previous active
+                        tab is to be hidden). Use <code>event.target</code> and
+                        <code>event.relatedTarget</code> to target the current active tab and the
+                        new soon-to-be-active tab, respectively.
+                    </td>
+                </tr>
+                <tr>
+                    <td><code>hidden.bs.tab</code></td>
+                    <td>This event fires after a new tab is shown (and thus the previous active tab
+                        is hidden). Use <code>event.target</code> and
+                        <code>event.relatedTarget</code> to target the previous active tab and the
+                        new active tab, respectively.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+      <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+        data-placement="bottom" data-copy='
+                var tabEl = document.querySelector("button[data-bs-toggle="tab"]")
+                tabEl.addEventListener("shown.bs.tab", function (event) {
+                  event.target // newly activated tab
+                  event.relatedTarget // previous active tab
+                })
+
+                    ' title="Copy to clipboard">
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+                d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+        </svg>
+      </button>
+      <pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">tabEl</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">'button[data-bs-toggle="tab"]'</span><span class="p">)</span>
+      <span class="nx">tabEl</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">'shown.bs.tab'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">event</span><span class="p">.</span><span class="nx">target</span> <span class="c1">// newly activated tab
+      </span><span class="c1"></span>  <span class="nx">event</span><span class="p">.</span><span class="nx">relatedTarget</span> <span class="c1">// previous active tab
+      </span><span class="c1"></span><span class="p">})</span>
+      </code></pre>
+
+</p>
+
+
+<h4 id="list-item-17">getInstance</h4>
+<p>
+    <p><em>Static</em> method which allows you to get the tab instance associated with a DOM element
+    </p>
+
+    <button type="button" class="btn btn-default btn-copy js-tooltip js-copy" data-toggle="tooltip"
+      data-placement="bottom" data-copy='
+      var triggerEl = document.querySelector("#trigger")
+      var tab = bootstrap.Tab.getInstance(triggerEl) // Returns a Bootstrap tab instance
+
+          ' title="Copy to clipboard">
+
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24"
+          viewBox="0 0 24 24">
+          <path
+              d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+      </svg>
+    </button>
+    <pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">triggerEl</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">'#trigger'</span><span class="p">)</span>
+    <span class="kd">var</span> <span class="nx">tab</span> <span class="o">=</span> <span class="nx">bootstrap</span><span class="p">.</span><span class="nx">Tab</span><span class="p">.</span><span class="nx">getInstance</span><span class="p">(</span><span class="nx">triggerEl</span><span class="p">)</span> <span class="c1">// Returns a Bootstrap tab instance
+    </span></code></pre>
+</p>
+        </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function () {
+      'use strict'
+
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.querySelectorAll('.needs-validation')
+
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+      .forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+
+          form.classList.add('was-validated')
+        }, false)
+      })
+      })()
+            // COPY TO CLIPBOARD
+      // Attempts to use .execCommand('copy') on a created text field
+      // Falls back to a selectable alert if not supported
+      // Attempts to display status in Bootstrap tooltip
+      // ------------------------------------------------------------------------------
+
+      function copyToClipboard(text, el) {
+      var copyTest = document.queryCommandSupported('copy');
+      var elOriginalText = el.attr('data-original-title');
+
+      if (copyTest === true) {
+      var copyTextArea = document.createElement("textarea");
+      copyTextArea.value = text;
+      document.body.appendChild(copyTextArea);
+      copyTextArea.select();
+      try {
+        var successful = document.execCommand('copy');
+        var msg = successful ? 'Copied!' : 'Whoops, not copied!';
+        el.attr('data-original-title', msg).tooltip('show');
+      } catch (err) {
+        console.log('Oops, unable to copy');
+      }
+      document.body.removeChild(copyTextArea);
+      el.attr('data-original-title', elOriginalText);
+      } else {
+      // Fallback if browser doesn't support .execCommand('copy')
+      window.prompt("Copy to clipboard: Ctrl+C or Command+C, Enter", text);
+      }
+      }
+
+      $(document).ready(function() {
+      // Initialize
+      // ---------------------------------------------------------------------
+
+      // Tooltips
+      // Requires Bootstrap 3 for functionality
+      $('.js-tooltip').tooltip();
+
+      // Copy to clipboard
+      // Grab any text in the attribute 'data-copy' and pass it to the
+      // copy function
+      $('.js-copy').click(function() {
+      var text = $(this).attr('data-copy');
+      var el = $(this);
+      copyToClipboard(text, el);
+      });
+      });
+        </script>
+        <style>
+         .bd-example {
+                padding: 20px;
+              padding-top: .75rem;
+      padding-bottom: .75rem;
+              background-color: rgba(39,41,43,0.03);
+      border: 1px solid rgba(39,41,43,0.1);
+      margin-top: 15px;
+            }
+
+            .col, .col-1, .col-2, .col-3, .col-4
+            , .col-5, .col-6, .col-7
+            , .col-8, .col-9, .col-10
+            , .col-11, .col-12
+            , .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4
+            , .col-sm-5, .col-sm-6, .col-sm-7
+            , .col-sm-8, .col-sm-9, .col-sm-10
+            , .col-sm-11
+            , .col-sm-12, .col-md-1, .col-md-2, .col-md-3
+            , .col-md-4
+            , .col-md-5
+            , .col-md-6
+            , .col-md-7
+            , .col-md-8
+            , .col-md-9
+            , .col-sm
+            , .col-md-10
+            , .col-md-11
+            , .col-md-12
+            , .col-lg-1
+            , .col-lg-2
+            , .col-lg-3
+            , .col-lg-4
+            , .col-lg-5
+            , .col-lg-6
+            , .col-lg-7
+            , .col-lg-8
+            , .col-lg-9
+            , .col-lg-10
+            , .col-lg-11
+            , .col-lg-12
+            , .col-xl-1
+            , .col-xl-2
+            , .col-xl-3
+            , .col-xl-4
+            , .col-xl-5
+            , .col-xl-6
+            , .col-xl-7
+            , .col-xl-8
+            , .col-xl-9
+            , .col-xl-10
+            , .col-xl-11
+            , .col-xl-12
+            , .col-xxl-1
+            , .col-xxl-2
+            , .col-xxl-3
+            , .col-xxl-4
+            , .col-xxl-5
+            , .col-xxl-6
+            , .col-xxl-7
+            , .col-xxl-8, .col-xxl-9
+            , .col-xxl-10
+            , .col-xxl-11
+            , .col-xxl-12
+            , .col-md-auto
+            , .col-auto
+            , .col-sm-auto
+            , .col-lg-auto
+            , .col-xl-auto {
+              padding-top: .75rem;
+      padding-bottom: .75rem;
+              background-color: rgba(39,41,43,0.03);
+      border: 1px solid rgba(39,41,43,0.1);
+      margin-top: 15px;
+            }
+            .btn-default {
+                margin-top: 15px;
+                background-color: rgba(39,41,43,0.03);
+            }
+            .accordion-item, .accordion-button {
+
+              background-color: rgba(39,41,43,0.03);
+            }
+            .chroma {
+              background-color: rgba(39,41,43,0.03);
+              padding: 20px;
+            }
+            .bd-example-row-flex-cols .row {
+      min-height: 10rem;
+      background-color: rgba(255,0,0,0.1);
+      margin-top: 20px;
+
+      }
+      pre {
+      padding: 0;
+      margin-top: .65rem;
+      margin-bottom: .65rem;
+      white-space: pre;
+      background-color: transparent;
+      border: 0;
+      }
+      .chroma .nt {
+      color: #2f6f9f;
+      }
+      .chroma .na {
+      color: #006ee0;
+      }
+      .chroma .o {
+      color: #555;
+      }
+      .chroma .s {
+      color: #d73038;
+      }
+      pre {
+      display: block;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      overflow: auto;
+      font-size: .875em;
+      }
+      code, kbd, pre, samp {
+      font-family: var(--bs-font-monospace);
+      font-size: 1em;
+      direction: ltr;
+      unicode-bidi: bidi-override;
+      }
+      code {
+      font-size: .875em;
+      color: #d63384;
+      word-wrap: break-word;
+      }
+
+        </style>
+
+    </body>
+    </html>
